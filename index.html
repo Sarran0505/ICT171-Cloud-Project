@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sarran Dojo</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      padding: 1rem 0;
+      text-align: center;
+      box-shadow: 0 2px 5px #000;
+    }
+
+    nav a {
+      color: #f33;
+      margin: 0 1.2rem;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fbc531;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #f33;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    h2 {
+      color: #fbc531;
+      margin-top: 2rem;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 1.5rem;
+      background-color: #f33;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #c62828;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      padding: 1rem;
+      border-top: 1px solid #444;
+    }
+
+    section {
+      margin-top: 3rem;
+      border-top: 1px solid #333;
+      padding-top: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 0.4rem 0;
+    }
+
+    img {
+      margin-top: 1rem;
+    }
+
+    .blood-btn {
+      background-color: #c62828;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1.5rem;
+      transition: background 0.3s ease;
+    }
+
+    .blood-btn:hover {
+      background-color: #a40000;
+    }
+
+    .blood {
+      position: fixed;
+      top: -50px;
+      left: calc(10% + 80% * var(--x));
+      width: 20px;
+      height: 80px;
+      background: crimson;
+      animation: drip 2s forwards;
+      z-index: 9999;
+      border-radius: 50%;
+      box-shadow: 0 0 10px red;
+    }
+
+    @keyframes drip {
+      to {
+        top: 100%;
+        opacity: 0;
+        transform: rotate(20deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#contact">Contact</a>
+      <a href="#prices">Prices</a>
+      <a href="#special">Special Kick</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="home">
+      <h1>🥋 Sarran Dojo 🥋</h1>
+      <p>  Welcome to our fictional dojo dedicated to the power of Karate and Kickboxing! The ultimate goal of this project
+  is to encourage visitors to embrace the dream of becoming a champion, and to inspire younger generations to pursue this path
+  through training and discipline. </p>
+    </section>
+
+    <section id="schedule">
+      <h2>📅 Class Schedule</h2>
+      <p>Monday, Wednesday, Friday – 6:00 PM to 8:00 PM</p>
+      <p>Saturday – 10:00 AM to 12:00 PM (Beginners)</p>
+    </section>
+
+    <section id="contact">
+      <h2>📞 Contact</h2>
+      <p>Come visit us at the dojo or contact us at:<br><strong>contact@sarrandojo.com</strong></p>
+      <a href="#" class="btn">Book a Free Trial</a>
+    </section>
+
+    <section id="prices">
+      <h2>💸 Prices</h2>
+      <ul>
+        <li>1 lesson = $15</li>
+        <li>Monthly pass = $80</li>
+        <li>Student discount = -20%</li>
+        <li>First trial class = Free</li>
+      </ul>
+    </section>
+
+    <section id="special">
+      <h2>🦵 Create Your Own Kick</h2>
+      <p>In our dojo, you don't just copy kicks. You create your own style.</p>
+      <p>We help you train, experiment, and develop your own “special kick”, one that reflects your personality and power.</p>
+      <p>Everyone has a unique way to strike. What's yours?</p>
+    </section>
+
+    <section id="oss">
+      <h2>🩸 OSS !! JOIN ME MY GUYS !!</h2>
+      <button class="blood-btn" onclick="releaseTheBlood()">Click if you dare</button>
+    </section>
+
+    <section id="project">
+      <h2>📝 Project Description</h2>
+<p><strong>Student ID:</strong> 35603826</p>
+<p>
+  This website is part of a cloud project. It was created for a martial arts club called
+  <strong>Sarran Dojo</strong>. It is a karate and kickboxing dojo, and the project was based on a personal
+  interest in fighting sports. The site presents information such as class schedules, contact details,
+  pricing, and a unique section where users can interact with an “OSS” button that triggers a
+  blood animation (CSS/JS).
+</p>
+<p>
+  The objective was to demonstrate the deployment of a static website using a real cloud environment.
+  Only HTML and CSS were used for the site design. The website is hosted on an AWS EC2 Ubuntu Server 22.04 instance.
+  Apache2 was installed, and the firewall and security groups were configured to allow HTTP traffic (port 80).
+  The site was deployed using SCP. Visitors can access the website publicly via its EC2 IP address or the configured
+  DNS domain. All content is statically served from <code>/var/www/html/</code>.
+</p>
+<p>
+  The site includes the dojo’s schedule, coach information, pricing, and a small button for booking a free trial.
+  In addition, as part of the project, a simple Bash script (<code>check_ports.sh</code>) was created to check for open ports
+  on the server, demonstrating basic security awareness and Linux command-line skills.
+</p>
+<p>
+  Overall, this project provided an opportunity to practice cloud concepts (IaaS), Linux command line, Apache configuration,
+  basic web design, and deployment in a real-world cloud scenario. It was an informative and engaging experience.
+</p>
+
+    </section>
+
+    <section id="license">
+      <h2>🔐 License Rationale</h2>
+      <p>
+        This project is licensed under the <strong>MIT License</strong>.  
+  This means that anyone is free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the project.  Additionally, if you use or copy the website design or code, please mention the original website (dojosarran.xyz)as a courtesy. 
+      </p>
+
+    <footer>
+      <p>© 2025 Sarran Dojo </p>
+    </footer>
+
+  </div>
+
+  <script>
+    function releaseTheBlood() {
+      for (let i = 0; i < 40; i++) {
+        const drop = document.createElement('div');
+        drop.classList.add('blood');
+        drop.style.setProperty('--x', Math.random());
+        document.body.appendChild(drop);
+        setTimeout(() => drop.remove(), 3000);
+      }
+    }
+  </script>
+
+</body>
+</html>
+

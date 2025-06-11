@@ -7,7 +7,7 @@ This repository contains the project files and documentation for the cloud deplo
 [CloudProject171_sarrangan_35603826.pdf](./CloudProject171_sarrangan_35603826.pdf)
 
 ## 🎥Video:
-[Watch the project demo video](https://drive.google.com/file/d/1m9SwzuJXxsSBJHoogHwHYZjeVbZgHT4a/view?usp=drivesdk)
+[The project video](https://drive.google.com/file/d/1m9SwzuJXxsSBJHoogHwHYZjeVbZgHT4a/view?usp=drivesdk)
 
 ## 🌐Website:
 

@@ -11,7 +11,7 @@ I created a website for karate and kickboxing classes, bringing my passion for m
   --> Spun up an **AWS EC2** server running **Ubuntu 22.04**  
   --> Installed **Apache2** to serve my HTML/CSS website  
   --> Set up **SSL/TLS** with Let’s Encrypt
-  --> Hooked up a custom domain with **DuckDNS**: [sarran-dojo.duckdns.org](https://sarran-dojo.duckdns.org)  
+  --> Hooked up a custom domain with **DuckDNS**
   --> Wrote a tiny **check_ports.sh** Bash script to check open ports
 
 ---

@@ -7,7 +7,7 @@ I created a website for karate and kickboxing classes, bringing my passion for m
 
 ## 📌What did I do?
 
--
+
   --> Spun up an **AWS EC2** server running **Ubuntu 22.04**  
   --> Installed **Apache2** to serve my HTML/CSS website  
   --> Set up **SSL/TLS** with Let’s Encrypt

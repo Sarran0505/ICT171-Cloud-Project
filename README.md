@@ -11,7 +11,8 @@ This repository contains the project files and documentation for the cloud deplo
 
 ## 🌐Website:
 
-The website is accessible at: [https://sarran-dojo.duckdns.org/](https://sarran-dojo.duckdns.org/)
+The website is accessible at: 
+[https://sarran-dojo.duckdns.org/](https://sarran-dojo.duckdns.org/)
 
 Thanks!
 
